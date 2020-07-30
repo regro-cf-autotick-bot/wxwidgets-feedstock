@@ -87,6 +87,7 @@ test:
     - wxrc --help  # [unix]
     - where wxrc   # [win]
     - if not exist %LIBRARY_BIN%\\wxrc.exe exit 1  # [win]
+    - if not exist %LIBRARY_BIN%\\wxmsw313u_xrc_vc_x64_custom.dll exit 1  # [win]
 
 
 about:
