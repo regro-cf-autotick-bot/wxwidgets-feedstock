@@ -42,7 +42,7 @@ requirements:
     - {{ cdt('libxrandr-devel') }}       # [linux]
     - {{ cdt('xorg-x11-proto-devel') }}  # [linux]
     - {{ cdt('libxxf86vm-devel') }}      # [linux]
-    
+
   host:
     - zlib
     - libpng
