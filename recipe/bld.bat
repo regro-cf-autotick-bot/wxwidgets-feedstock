@@ -17,3 +17,5 @@ if errorlevel 1 exit 1
 
 ninja install
 if errorlevel 1 exit 1
+
+MOVE /Y %LIBRARY_LIB%\vc_x64_dll\*.dll %LIBRARY_BIN%
