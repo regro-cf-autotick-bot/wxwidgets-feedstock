@@ -75,7 +75,8 @@ requirements:
 
 test:
   commands:
-    - test -f ${PREFIX}/lib/libwx_baseu-{{ major_minor_version }}${SHLIB_EXT}  # [unix]
+    - test -f ${PREFIX}/lib/libwx_baseu-{{ major_minor_version }}${SHLIB_EXT}  # [linix]
+    - test -f ${PREFIX}/lib/libwx_baseu-{{ version }}.0.0${SHLIB_EXT}  # [linix]
     - test -f ${PREFIX}/include/wx-{{ major_minor_version }}/wx/wx.h           # [unix]
     - wx-config --prefix  # [unix]
     - wxrc --help  # [unix]
