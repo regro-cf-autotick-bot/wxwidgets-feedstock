@@ -1,8 +1,3 @@
-mkdir build_
-if errorlevel 1 exit 1
-cd build_
-if errorlevel 1 exit 1
-
 nmake /f makefile.vc  ^
    BUILD=release      ^
    SHARED=1           ^
