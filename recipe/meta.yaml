@@ -14,6 +14,7 @@ build:
   number: 0
   # OSX Still doesn't work, see https://github.com/conda-forge/wxwidgets-feedstock/pulls
   skip: true  # [osx]
+  skip: true  # [linux]
   run_exports:
     # ABI seems to be stable between minor versions
     - {{ pin_subpackage('wxwidgets', max_pin='x.x') }}
