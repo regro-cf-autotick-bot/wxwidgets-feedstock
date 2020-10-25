@@ -1,3 +1,5 @@
+cd build
+cd msw
 nmake /f makefile.vc  ^
    BUILD=release      ^
    SHARED=1           ^
