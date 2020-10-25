@@ -6,6 +6,8 @@ if errorlevel 1 exit 1
 cmake  ^
     -GNinja ^
     -DCMAKE_BUILD_TYPE=Release ^
+    -DCMAKE_OFFICIAL_BUILD=1 ^
+    -DOFFICIAL_BUILD=1 ^
     -DBUILD=release ^
     -DVENDOR="" ^
     -DCMAKE_INSTALL_PREFIX=%LIBRARY_PREFIX% ^
