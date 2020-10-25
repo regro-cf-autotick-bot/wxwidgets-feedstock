@@ -6,6 +6,8 @@ if errorlevel 1 exit 1
 cmake  ^
     -GNinja ^
     -DCMAKE_BUILD_TYPE=Release ^
+    -DBUILD=release ^
+    -DVENDOR="" ^
     -DCMAKE_INSTALL_PREFIX=%LIBRARY_PREFIX% ^
     -DwxUSE_ZLIB=sys    ^
     -DwxUSE_EXPAT=sys   ^
