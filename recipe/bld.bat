@@ -16,6 +16,7 @@ cmake  ^
     -DwxUSE_LIBPNG=sys  ^
     -DwxUSE_LIBTIFF=sys ^
     -DwxVENDOR=x64_custom ^
+    -DVENDOR=x64_custom ^
     ..
 if errorlevel 1 exit 1
 
